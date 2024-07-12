@@ -76,7 +76,7 @@ const Columns = ({ data }: any) => {
                     className="border border-gray-500 text-green-50 text-sm px-3 py-3"
                     key={header}
                   >
-                    {ele[header]}
+                    {ele[header] === null ? "No Data" : ele[header]}
                   </td>
                 ))}
               </tr>

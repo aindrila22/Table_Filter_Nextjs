@@ -11,7 +11,7 @@ interface Props {
 
 const Button: React.FC<Props> = ({ rowsPerPage, setCurrentPage, currentPage, totalPages, totalColumns }) => {
   return (
-    <div className="flex flex-col sm:flex-row justify-between items-center w-full px-5">
+    <div className="flex flex-col gap-4 sm:flex-row justify-between items-center w-full px-5">
       <div className="w-full text-gray-400">Showing {rowsPerPage} data rows in {totalColumns} columns</div>
       <div className="flex justify-end items-center w-full mb-4 text-gray-200 space-x-4">
         <button

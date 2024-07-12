@@ -31,7 +31,7 @@ const TabularData = () => {
         <div className="flex justify-between items-center w-full">
           <label>
             {" "}
-            <div className=" flex items-center gap-4 text-3xl my-14 px-6">
+            <div className=" flex md:flex-row md:justify-start justify-center text-center md:text-left flex-col items-center gap-4 text-3xl my-14 px-6">
               <MusicalNoteIcon className="h-12 w-12 text-gray-400" />
               <label className="text-green-400">
                 Most Streamed Spotify Songs 2024
