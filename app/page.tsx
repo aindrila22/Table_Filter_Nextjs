@@ -3,7 +3,7 @@ import TabularData from "@/components/TabularData";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="bg-black min-h-full">
       <TabularData />
     </main>
   );
